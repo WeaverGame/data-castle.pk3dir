@@ -1,0 +1,77 @@
+models/mapobjects/castle/base
+{
+    qer_editorimage    models/mapobjects/castle/base.png
+    
+	diffusemap         models/mapobjects/castle/base.png
+	specularmap	    	models/mapobjects/castle/base_s.png
+	bumpmap            models/mapobjects/castle/base_nm.png
+}
+
+models/mapobjects/castle/bricks1
+{
+    qer_editorimage    models/mapobjects/castle/bricks1.png
+    
+	diffusemap         models/mapobjects/castle/bricks1.png
+	specularmap	    	models/mapobjects/castle/bricks1_s.png
+	bumpmap            models/mapobjects/castle/bricks1_nm.png
+}
+
+textures/trak/castle/bricks1
+{
+    qer_editorimage    models/mapobjects/castle/bricks1.png
+    
+	diffusemap         models/mapobjects/castle/bricks1.png
+	specularmap	    	models/mapobjects/castle/bricks1_s.png
+	bumpmap            models/mapobjects/castle/bricks1_nm.png
+}
+
+textures/trak/castle/floor1
+{
+    qer_editorimage    models/mapobjects/castle/floor1.png
+    
+	diffusemap         models/mapobjects/castle/floor1.png
+	specularmap	    	models/mapobjects/castle/floor1_s.png
+	bumpmap            models/mapobjects/castle/floor1_nm.png
+}
+
+models/mapobjects/castle/stainedglass1
+{
+	qer_editorImage		models/mapobjects/castle/stainedglass1.png
+	xmap_surfaceLight	3000
+	xmap_lightSubdivide	16
+	xmap_lightImage		models/mapobjects/castle/stainedglass1.png
+	lightfilter
+	diffusemap         models/mapobjects/castle/stainedglass1.png
+	{
+		stage		glowMap
+		map		models/mapobjects/castle/stainedglass1.png
+		blend		add
+	}
+}
+
+models/mapobjects/castle/trims1
+{
+    qer_editorimage    models/mapobjects/castle/trims1.png
+    
+	diffusemap         models/mapobjects/castle/trims1.png
+	specularmap	    	models/mapobjects/castle/trims1_s.png
+	bumpmap            models/mapobjects/castle/trims1_nm.png
+}
+
+textures/trak/castle/trims1
+{
+    qer_editorimage    models/mapobjects/castle/trims1.png
+    
+	diffusemap         models/mapobjects/castle/trims1.png
+	specularmap	    	models/mapobjects/castle/trims1_s.png
+	bumpmap            models/mapobjects/castle/trims1_nm.png
+}
+
+textures/trak/castle/trim1
+{
+    qer_editorimage    textures/trak/castle/trim1.png
+    
+	diffusemap         textures/trak/castle/trim1.png
+	specularmap	    	textures/trak/castle/trim1_s.png
+	bumpmap            textures/trak/castle/trim1_nm.png
+}
