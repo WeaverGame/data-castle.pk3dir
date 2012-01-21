@@ -34,6 +34,15 @@ textures/trak/castle/floor1
 	bumpmap            models/mapobjects/castle/floor1_nm.png
 }
 
+textures/trak/castle/floor2a
+{
+    qer_editorimage    models/mapobjects/castle/floor2a.png
+    
+	diffusemap         models/mapobjects/castle/floor2a.png
+	specularmap	    	models/mapobjects/castle/floor2a_s.png
+	bumpmap            models/mapobjects/castle/floor2a_nm.png
+}
+
 models/mapobjects/castle/stainedglass1
 {
 	qer_editorImage		models/mapobjects/castle/stainedglass1.png
@@ -74,4 +83,13 @@ textures/trak/castle/trim1
 	diffusemap         textures/trak/castle/trim1.png
 	specularmap	    	textures/trak/castle/trim1_s.png
 	bumpmap            textures/trak/castle/trim1_nm.png
+}
+
+textures/trak/castle/trim2
+{
+    qer_editorimage    textures/trak/castle/trim2.png
+    
+	diffusemap         textures/trak/castle/trim2.png
+	specularmap	    	textures/trak/castle/trim2_s.png
+	bumpmap            textures/trak/castle/trim2_nm.png
 }
