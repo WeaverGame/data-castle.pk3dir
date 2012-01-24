@@ -25,6 +25,20 @@ textures/trak/castle/bricks1
 	bumpmap            models/mapobjects/castle/bricks1_nm.png
 }
 
+models/mapobjects/castle/ceil1
+{
+    qer_editorimage    models/mapobjects/castle/ceil1.png
+    
+	diffusemap         models/mapobjects/castle/ceil1.png
+}
+
+models/mapobjects/castle/door1
+{
+    qer_editorimage    models/mapobjects/castle/door1.png
+    
+	diffusemap         models/mapobjects/castle/door1.png
+}
+
 textures/trak/castle/floor1
 {
     qer_editorimage    models/mapobjects/castle/floor1.png
@@ -49,14 +63,23 @@ models/mapobjects/castle/stainedglass1
 	xmap_surfaceLight	3000
 	xmap_lightSubdivide	16
 	xmap_lightImage		models/mapobjects/castle/stainedglass1.png
-	lightfilter
 	diffusemap         models/mapobjects/castle/stainedglass1.png
+	nolightmap
 	{
 		stage		glowMap
 		map		models/mapobjects/castle/stainedglass1.png
 		blend		add
 	}
 }
+
+models/mapobjects/castle/stainedglass1_unlit
+{
+    qer_editorimage    models/mapobjects/castle/stainedglass1_unlit.png
+    
+	diffusemap         models/mapobjects/castle/stainedglass1_unlit.png
+	specularmap	    	models/mapobjects/castle/stainedglass1_unlit.png
+}
+
 
 models/mapobjects/castle/trims1
 {
