@@ -57,6 +57,15 @@ textures/trak/castle/floor2a
 	bumpmap            models/mapobjects/castle/floor2a_nm.png
 }
 
+textures/trak/castle/floor3
+{
+    qer_editorimage    models/mapobjects/castle/floor3.png
+    
+	diffusemap         models/mapobjects/castle/floor3.png
+	specularmap	    	models/mapobjects/castle/floor3_s.png
+	bumpmap            models/mapobjects/castle/floor3_nm.png
+}
+
 models/mapobjects/castle/stainedglass1
 {
 	qer_editorImage		models/mapobjects/castle/stainedglass1.png
