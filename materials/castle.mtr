@@ -9,21 +9,33 @@ models/mapobjects/castle/base
 
 models/mapobjects/castle/bricks1
 {
-    qer_editorimage    models/mapobjects/castle/bricks1.png
-    
-	diffusemap         models/mapobjects/castle/bricks1.png
-	specularmap	    	models/mapobjects/castle/bricks1_s.png
-	bumpmap            models/mapobjects/castle/bricks1_nm.png
+    qer_editorimage    models/mapobjects/castle/bricks2.png
+
+	parallax
+	{
+		stage		diffuseMap
+		map		models/mapobjects/castle/bricks2.png
+		depthScale	-0.05
+	}
+
+	specularmap	    	models/mapobjects/castle/bricks2_s.png
+	bumpmap            models/mapobjects/castle/bricks2_nm.png
 }
 
 textures/trak/castle/bricks1
 {
-    qer_editorimage    models/mapobjects/castle/bricks1.png
+    qer_editorimage    models/mapobjects/castle/bricks2.png
     
-	diffusemap         models/mapobjects/castle/bricks1.png
-	specularmap	    	models/mapobjects/castle/bricks1_s.png
-	bumpmap            models/mapobjects/castle/bricks1_nm.png
+	parallax
+	{
+		stage		diffuseMap
+		map		models/mapobjects/castle/bricks2.png
+		depthScale	-0.05
+	}
+	specularmap	    	models/mapobjects/castle/bricks2_s.png
+	bumpmap            models/mapobjects/castle/bricks2_nm.png
 }
+
 
 models/mapobjects/castle/ceil1
 {
@@ -73,6 +85,33 @@ textures/trak/castle/floorgrate
 	diffusemap         models/mapobjects/castle/floorgrate.png
 	specularmap	    	models/mapobjects/castle/floorgrate_s.png
 	bumpmap            models/mapobjects/castle/floorgrate_nm.png
+}
+
+textures/trak/castle/fresco1
+{
+    qer_editorimage    models/mapobjects/castle/fresco1.png
+    
+	diffusemap         models/mapobjects/castle/fresco1.png
+//	specularmap	    	models/mapobjects/castle/floorgrate_s.png
+//	bumpmap            models/mapobjects/castle/floorgrate_nm.png
+}
+
+textures/trak/castle/fresco2
+{
+    qer_editorimage    models/mapobjects/castle/fresco2.png
+    
+	diffusemap         models/mapobjects/castle/fresco2.png
+//	specularmap	    	models/mapobjects/castle/floorgrate_s.png
+//	bumpmap            models/mapobjects/castle/floorgrate_nm.png
+}
+
+textures/trak/castle/fresco2a
+{
+    qer_editorimage    models/mapobjects/castle/fresco2a.png
+    
+	diffusemap         models/mapobjects/castle/fresco2a.png
+//	specularmap	    	models/mapobjects/castle/floorgrate_s.png
+//	bumpmap            models/mapobjects/castle/floorgrate_nm.png
 }
 
 models/mapobjects/castle/stainedglass1
@@ -133,4 +172,40 @@ textures/trak/castle/trim2
 	diffusemap         textures/trak/castle/trim2.png
 	specularmap	    	textures/trak/castle/trim2_s.png
 	bumpmap            textures/trak/castle/trim2_nm.png
+}
+
+textures/trak/castle/trim3
+{
+    qer_editorimage    textures/trak/castle/trim3.png
+    
+	diffusemap         textures/trak/castle/trim3.png
+//	specularmap	    	textures/trak/castle/trim2_s.png
+//	bumpmap            textures/trak/castle/trim2_nm.png
+}
+
+textures/trak/castle/trim4
+{
+    qer_editorimage    textures/trak/castle/trim4.png
+    
+	diffusemap         textures/trak/castle/trim4.png
+//	specularmap	    	textures/trak/castle/trim2_s.png
+//	bumpmap            textures/trak/castle/trim2_nm.png
+}
+
+textures/trak/castle/trim5
+{
+    qer_editorimage    textures/trak/castle/trim5.png
+    
+	diffusemap         textures/trak/castle/trim5.png
+//	specularmap	    	textures/trak/castle/trim2_s.png
+//	bumpmap            textures/trak/castle/trim2_nm.png
+}
+
+textures/trak/castle/trim6
+{
+    qer_editorimage    textures/trak/castle/trim6.png
+    
+	diffusemap         textures/trak/castle/trim6.png
+//	specularmap	    	textures/trak/castle/trim2_s.png
+//	bumpmap            textures/trak/castle/trim2_nm.png
 }
