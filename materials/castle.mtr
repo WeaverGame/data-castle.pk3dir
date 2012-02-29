@@ -147,6 +147,15 @@ textures/trak/castle/fresco4
 
 }
 
+textures/trak/castle/gutter
+{
+    qer_editorimage    models/mapobjects/castle/gutter.png
+    
+	diffusemap         models/mapobjects/castle/gutter.png
+	specularmap	    	models/mapobjects/castle/gutter_s.png
+	bumpmap            models/mapobjects/castle/gutter_nm.png
+}
+
 
 models/mapobjects/castle/stainedglass1
 {
