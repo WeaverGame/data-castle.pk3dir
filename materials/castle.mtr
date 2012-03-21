@@ -9,31 +9,31 @@ models/mapobjects/castle/base
 
 models/mapobjects/castle/bricks1
 {
-    qer_editorimage    models/mapobjects/castle/bricks2.png
+    qer_editorimage    models/mapobjects/castle/bricks1.png
 
 	parallax
 	{
 		stage		diffuseMap
-		map		models/mapobjects/castle/bricks2.png
+		map		models/mapobjects/castle/bricks1.png
 		depthScale	-0.05
 	}
 
-	specularmap	    	models/mapobjects/castle/bricks2_s.png
-	bumpmap            models/mapobjects/castle/bricks2_nm.png
+	specularmap	    	models/mapobjects/castle/bricks1_s.png
+	bumpmap            models/mapobjects/castle/bricks1_nm.png
 }
 
 textures/trak/castle/bricks1
 {
-    qer_editorimage    models/mapobjects/castle/bricks2.png
+    qer_editorimage    models/mapobjects/castle/bricks1.png
     
 	parallax
 	{
 		stage		diffuseMap
-		map		models/mapobjects/castle/bricks2.png
+		map		models/mapobjects/castle/bricks1.png
 		depthScale	-0.05
 	}
-	specularmap	    	models/mapobjects/castle/bricks2_s.png
-	bumpmap            models/mapobjects/castle/bricks2_nm.png
+	specularmap	    	models/mapobjects/castle/bricks1_s.png
+	bumpmap            models/mapobjects/castle/bricks1_nm.png
 }
 
 models/mapobjects/castle/ceil_dark1
